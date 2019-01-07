@@ -4,8 +4,10 @@ using namespace std;
 
 int main() {
     int a = 5;
+    int n;
     for (int i = 0; i <= a; i++){
-        cout << i << endl;
+        n = i;
+        cout << i <<  " == " << n << endl;
     }
 
 }
